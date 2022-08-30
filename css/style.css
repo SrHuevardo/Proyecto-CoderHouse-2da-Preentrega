@@ -26,10 +26,9 @@ body{
 .cards-flex{
     display: flex;
     justify-content: center;
-    transition: transform .3s;
 }
 .card{
-    margin: 1rem;
+    margin: .5rem;
     padding: 1rem;
     background: linear-gradient(0deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
     color: black;
