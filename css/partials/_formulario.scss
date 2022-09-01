@@ -1,0 +1,20 @@
+form{
+    background-color: blueviolet;
+    border: 2px solid black;
+    font-weight: 700;
+
+    textarea{
+        height: 10rem;
+        resize: none;
+    }
+
+    button{
+        background-color: rgb(16, 5, 37);
+    }
+
+    .btn-secondary{
+        background-color: rgb(162, 0, 255);
+        color: rgb(0, 0, 0);
+    }
+}
+

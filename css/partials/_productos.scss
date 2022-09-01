@@ -1,0 +1,32 @@
+.animation{
+    transform: scale(1.1) translateY(-40px);
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.card2{
+    margin: 1rem;
+    padding: 1rem;
+    background: linear-gradient(0deg, rgb(224, 46, 171) 0%, rgb(169, 96, 175) 100%);
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    transition: transform .3s;
+
+    &:hover{
+        @extend.animation;
+    }
+}
+
+.card3{
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    background: linear-gradient(0deg, rgba(95,57,172,1) 0%, rgba(70,252,245,1) 100%);
+    color: black;
+    font-weight: bold;
+    transition: transform .3s;
+
+    &:hover{
+        @extend.animation;
+    }
+}
